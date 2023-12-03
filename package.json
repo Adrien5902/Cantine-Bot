@@ -1,0 +1,25 @@
+{
+  "name": "cantine-bot",
+  "version": "1.0.0",
+  "description": "Un bot discord qui récup le menu de la cantine",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "",
+    "fetch": "",
+    "dev": "ts-node .",
+    "build": "tsc"
+  },
+  "keywords": [
+    "bot",
+    "discord-bot"
+  ],
+  "author": "Adrien5902",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "puppeteer": "^21.5.2"
+  }
+}
