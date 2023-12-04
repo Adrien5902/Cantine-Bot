@@ -49,3 +49,9 @@ export const InputEnterValue = (page: Page, selector: string, new_value: string)
             }, new_value).then(resolve)
         )
 })
+
+export interface Attatchment {
+    name: string
+    link: string
+    metadata: string
+}
